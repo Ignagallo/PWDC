@@ -1,0 +1,80 @@
+body, * {
+    box-sizing: border-box;
+    margin: 0;
+    color: aliceblue;
+    padding: 0;
+}
+
+.acerca-carrusel{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.acerca-carrusel > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}    
+
+.acerca-imagen {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.acerca-imagen > img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    margin: 0 15px 15px 150px;
+    
+}
+
+footer > ul {
+    display: block;
+    margin-left: 100px;
+    
+}
+footer > ul > li {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+footer > ul > li > a {
+    text-decoration: none;
+    
+}
+ol, 
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header a i {
+    font-size: 2em;
+    padding: 0.5em;
+}
+header {
+    height: 75px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
